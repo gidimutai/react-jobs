@@ -1,0 +1,40 @@
+{/*
+import React from 'react';
+
+const App = () => {
+  let name = 'gidi';
+  const x = 20;
+  const y = 10;
+  const names = ['John', 'Jane', 'Tom'];
+  const loggedIn = false;
+
+  if (loggedIn) {
+    return <h1>Hello {name} welcome back</h1>;
+  }
+
+  return (
+    <>
+      <div className="text-5xl">App</div>
+      <p>hello {name}</p>
+      <p style={{ color: 'royalblue' }}>
+        the sum of {x} and {y} is {x + y}
+      </p>
+      <ul className="flex flex-col text-orange-400 bg-slate-500">
+        {names.map((name, index) => (
+          <li key={index}>{name} is a great person</li>
+        ))}
+      </ul>
+      //
+      {loggedIn ? (
+        <h1>Hello {name} what you upto</h1>
+      ) : (
+        <h1>Hello you new here? </h1>
+      )} 
+      //
+      {loggedIn && <h1>Hello {name} what you upto</h1>}
+    </>
+  );
+};
+
+export default App;
+*/}
